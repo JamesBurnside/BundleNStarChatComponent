@@ -1,0 +1,5 @@
+# Disallow everything by default so new files aren't accidently included:
+*
+
+# Allow actual bundle file
+!dist/bundle.js

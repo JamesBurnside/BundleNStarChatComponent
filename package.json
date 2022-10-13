@@ -1,0 +1,30 @@
+{
+  "name": "nstar-bundle",
+  "version": "1.0.0",
+  "description": "A bundle of @fluentui/react-northstar components used by @azure/communication-react",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "bundle": "webpack --config webpack.config.js && npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesBurnside/BundleNStarChatComponent.git"
+  },
+  "author": "jamesburnside",
+  "bugs": {
+    "url": "https://github.com/JamesBurnside/BundleNStarChatComponent/issues"
+  },
+  "homepage": "https://github.com/JamesBurnside/BundleNStarChatComponent#readme",
+  "dependencies": {
+    "@fluentui/react-northstar": "0.64.0",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "add": "^2.0.6",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "yarn": "^1.22.19"
+  }
+}
