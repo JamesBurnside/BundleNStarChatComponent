@@ -1,1 +1,1 @@
-A bundle of N* components for use in @azure/communication-react
+POC of a set of bundled of N* components
